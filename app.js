@@ -24,7 +24,7 @@ initDbAndServer();
 const convertMovieDbToResponse = (dbObject) => {
   return {
     movieId: dbObject.movie_id,
-    directorId: dbObject.movie_id,
+    directorId: dbObject.director_id,
     movieName: dbObject.movie_name,
     leadActor: dbObject.lead_actor,
   };
